@@ -1,12 +1,6 @@
 # API para um "Banco Digital"
 
-![GitHub repo size](https://img.shields.io/github/repo-size/CaioSchwab/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/CaioSchwab/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/CaioSchwab/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/CaioSchwab/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/CaioSchwab/README-template?style=for-the-badge)
-
-<img src="imagem.png" alt="Exemplo imagem">
+<img src="./imagem_insomnia.JPG" alt="Exemplo imagem">
 
 Projeto do curso _Desenvolvimento de Software - Foco em Backend_ planejado pela [Cubos Academy](https://cubos.academy/).
 
