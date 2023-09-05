@@ -1,6 +1,6 @@
 # API para um "Banco Digital"
 
-<img src="./imagem_insomnia.JPG" alt="Exemplo imagem">
+<img src="./imagens/imagemProjeto.JPG" alt="Exemplo imagem">
 
 Projeto do curso _Desenvolvimento de Software - Foco em Backend_ planejado pela [Cubos Academy](https://cubos.academy/).
 
