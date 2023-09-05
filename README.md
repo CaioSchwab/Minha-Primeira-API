@@ -47,13 +47,13 @@ $ npm install -D nodemon
 - Dentro do insonmia coloque você deve colocar o metodo correto de cada endPoint e o link https dos endPoints especificos que você quer acessar:
     - Listar contas bancárias: metodo (get) / https link (http://localhost:3000/contas?senha_banco=Cubos123Bank)
     - Cadastrar conta bancária: metodo (post) / https link (http://localhost:3000/contas)
-    - Atualizar conta bancária: metodo (put) / https link (http://localhost:3000/contas/_NumeroContaDoUsuarioEspecifico_/usuario)
-    - Excluir conta bancária: metodo (delete) / https link (http://localhost:3000/contas/_NumeroContaDoUsuarioEspecifico_)
+    - Atualizar conta bancária: metodo (put) / https link (http://localhost:3000/contas/*NumeroContaDoUsuarioEspecifico*/usuario)
+    - Excluir conta bancária: metodo (delete) / https link (http://localhost:3000/contas/*NumeroContaDoUsuarioEspecifico*)
     - Depósito: metodo (post) / https link (http://localhost:3000/transacoes/depositar)
     - Saque: metodo (post) / https link (http://localhost:3000/transacoes/sacar)
     - Transferência: metodo (post) / https link (http://localhost:3000/transacoes/transferir)
-    - Saldo: metodo (get) / https link (http://localhost:3000/contas/saldo?numero_conta=_NumeroContaDoUsuarioEspecifico_&senha=_SenhaDoUsuarioQueChecarOSaldo_)
-    - Extrato: metodo (get) / https link (http://localhost:3000/contas/extrato?numero_conta=_NumeroContaDoUsuarioEspecifico_&senha=_SenhaDoUsuarioQueChecarOSaldo_)
+    - Saldo: metodo (get) / https link (http://localhost:3000/contas/saldo?numero_conta=*NumeroContaDoUsuarioEspecifico*&senha=*SenhaDoUsuarioQueChecarEspecifico*)
+    - Extrato: metodo (get) / https link (http://localhost:3000/contas/extrato?numero_conta=*NumeroContaDoUsuarioEspecifico*&senha=*SenhaDoUsuarioQueChecarEspecifico*)
 - Em algumas funções da API (Ex:cadastrarConta, AtualizarConta, Deposito, Saque, Transferencias ) será necessário passar parametros no body da requisição, é só clicar em body no IMSOMNIA e escolher a opção JSON.
 - Exemplos dos parametros de cada Função:
 
