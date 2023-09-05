@@ -24,7 +24,7 @@ Antes de utilizar a Api é necessário instalar alguns pacotes e um app.
 Instalar o app INSOMNIA
 
 ```javascript
-<a>https://insomnia.rest/download</a>
+insomnia.rest/download.com
 ```
 
 Instalar o FrameWork Express como dependencia
