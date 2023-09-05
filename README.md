@@ -53,7 +53,7 @@ $ npm install -D nodemon
     - Saque: metodo (post) / https link (http://localhost:3000/transacoes/sacar)
     - Transferência: metodo (post) / https link (http://localhost:3000/transacoes/transferir)
     - Saldo: metodo (get) / https link (http://localhost:3000/contas/saldo?numero_conta=_NumeroContaDoUsuarioEspecifico_&senha=_SenhaDoUsuarioQueChecarOSaldo_)
-    - Extrato: metodo (get) / https link (http://localhost:3000/contas/extrato?numero_conta=_NumeroContaDoUsuarioEspecifico_&_SenhaDoUsuarioQueChecarOSaldo_)
+    - Extrato: metodo (get) / https link (http://localhost:3000/contas/extrato?numero_conta=_NumeroContaDoUsuarioEspecifico_&senha=_SenhaDoUsuarioQueChecarOSaldo_)
 - Em algumas funções da API (Ex:cadastrarConta, AtualizarConta, Deposito, Saque, Transferencias ) será necessário passar parametros no body da requisição, é só clicar em body no IMSOMNIA e escolher a opção JSON.
 - Exemplos dos parametros de cada Função:
 
