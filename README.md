@@ -27,13 +27,13 @@ Instalar o FrameWork Express como dependencia
 $ npm install express
 ```
 
-Instalar a biblioteca como dependencia
+Instalar a biblioteca date-fns como dependencia
 
 ```javascript
 $ npm install date-fns --save
 ```
 
-Instalar a Bibliotecas Nodemon como dependencia de desenvolvimento
+Instalar a biblioteca Nodemon como dependencia de desenvolvimento
 
 ```javascript
 $ npm install -D nodemon
