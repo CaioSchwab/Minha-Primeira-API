@@ -41,7 +41,7 @@ $ npm install -D nodemon
 
 ## ⚙️ Executando a API
 
-- Abra o terminal
+- Dentro do VSCode abra o terminal
 - Dentro do terminal entre na camada da pasta geral do projeto
 - Dentro do terminal digite: npm run dev
 - Dentro do insonmia coloque você deve colocar o metodo correto de cada endPoint e o link https dos endPoints especificos que você quer acessar:
